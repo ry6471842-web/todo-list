@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(255, 182, 193, 0.199);
+    font-family:cursive;
+}
+.todo-grid,
+.to-do-input-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+.to-do-input-grid{
+    margin-bottom: 10px;
+}
+.todohead{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: hotpink;
+}
+.js-name-input{
+    border: solid .2px hotpink ;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.js-due-date-input{
+    border: solid 1px hotpink ;
+    padding: 9px 15px;
+    border-radius: 8px;
+    cursor: pointer; 
+    color: hotpink;
+
+}
+.addbtn,
+.delbtn{
+    border: solid 1px hotpink;
+    background-color: white;
+    color: hotpink;
+    padding:9px 15px ;
+    border-radius:8px ;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+.addbtn:hover,
+.delbtn:hover{
+    background-color: hotpink;
+    color: white;
+}
+.js-todo-list{
+    color: hotpink;
+}
+
